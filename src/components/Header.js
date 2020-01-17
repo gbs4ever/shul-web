@@ -9,12 +9,18 @@ class Header extends React.Component {
 
           <ul className="actions">
             <li>
-              <a href="#one" className="button scrolly">
-                Donate & Dedications
+              <a
+                href="https://secure.cardknox.com/torahutfilla"
+                className="button scrolly"
+              >
+                Donations & Dedications
               </a>
             </li>
             <li>
-              <a href="#one" className="button scrolly">
+              <a
+                href="https://www.myzmanim.com/day.aspx?askdefault=1&vars=24685993&q=chestnut%20ridge"
+                className="button scrolly"
+              >
                 Zmanim
               </a>
             </li>
@@ -25,7 +31,7 @@ class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a href="#one" className="button scrolly">
+              <a href="#four" className="button scrolly">
                 Contact
               </a>
             </li>

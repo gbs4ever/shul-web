@@ -4,7 +4,8 @@ This website is based on Gatsby.js V2 starter which is based on the Photon site 
 
 ## Preview
 
-[shul-site](https://shul-750.netlify.com/)
+See a [shul-site](https://shul-750.netlify.com/) here.
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad84d8aa-da8f-4150-8f18-431cabe104a4/deploy-status)](https://app.netlify.com/sites/shul-750/deploys)
 
 ## Installation
