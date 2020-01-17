@@ -7,7 +7,7 @@ This website is based on Gatsby.js V2 starter which is based on the Photon site 
 ## Installation
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-photon https://github.com/gbs4ever/shul-web.git`
+`gatsby new shul-web https://github.com/gbs4ever/shul-web.git`
 
 Run `gatsby develop` in the terminal to start.
 
