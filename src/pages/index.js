@@ -3,119 +3,63 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import ShulInfo from '../components/ShulInfo.js'
+import Donation from '../components/Donation.js'
 import shul from '../assets/images/shul.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
   render() {
-    const siteTitle = 'Gatsby Starter - Photon'
+    const siteTitle = 'Bais Medrash Torah Utfilla'
 
     return (
       <Layout>
         <Helmet title={siteTitle} />
 
-        <section id="two" className="main style2 special">
+        <section id="two" className="main style4 special">
           <div className="grid-wrapper">
-            <div className="col-8">
-              <ShulInfo />
-              {/*  <ul className="major-icons">
-                    <li>
-                      <span className="icon style1 major fa-code"></span>
-                    </li>
-                    <li>
-                      <span className="icon style2 major fa-bolt"></span>
-                    </li>
-                    <li>
-                      <span className="icon style3 major fa-camera-retro"></span>
-                    </li>
-                    <li>
-                      <span className="icon style4 major fa-cog"></span>
-                    </li>
-                    <li>
-                      <span className="icon style5 major fa-desktop"></span>
-                    </li>
-                    <li>
-                      <span className="icon style6 major fa-calendar"></span>
-                    </li>
-    </ul> 
-                </div>
-                <div className="col-6">
-                  <header className="major">
-                    <a href="https://www.myzmanim.com/day.aspx?askdefault=1&vars=24685993&q=chestnut%20ridge">
-                      zmanim{' '}
-                    </a>
-                  */}
+            <div className="col-12">
+              <Donation />
             </div>
           </div>
         </section>
 
-        {/* <section id="three" className="main style1 special">
+        <section id="three" className="main style3 special">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Adipiscing amet consequat</h2>
+                <h2> Weekday Zmanim</h2>
               </header>
-              <p>
-                Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
-              </p>
+              <a
+                className="button"
+                href="https://www.myzmanim.com/day.aspx?askdefault=1&vars=24685993&q=chestnut%20ridge"
+              >
+                My zmanim{' '}
+              </a>
             </div>
 
             <div className="col-4">
-              <span className="image fit">
-                <img src={pic02} alt="" />
-              </span>
-              <h3>Magna feugiat lorem</h3>
-              <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
-              </p>
+              <h3>Shacharis</h3>
               <ul className="actions">
-                <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
-                </li>
+                <li>Sun: 7:30, 8:30</li>
+                <li>Mon -Fri: 6:45, 7:30</li>
               </ul>
             </div>
             <div className="col-4">
-              <span className="image fit">
-                <img src={pic03} alt="" />
-              </span>
-              <h3>Magna feugiat lorem</h3>
-              <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
-              </p>
+              <h3>Mincha</h3>
               <ul className="actions">
-                <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
-                </li>
+                <li>Sun: 12:45, 1:45, 10 min bfr Shkia</li>
+                <li>Mon - Thurs: 1:45 , 10 min bfr Shkia</li>
               </ul>
             </div>
             <div className="col-4">
-              <span className="image fit">
-                <img src={pic04} alt="" />
-              </span>
-              <h3>Magna feugiat lorem</h3>
-              <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
-              </p>
+              <h3>Marriv</h3>
               <ul className="actions">
-                <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
-                </li>
+                <li>Shkia, 8:15, 9:45</li>
+                <h4> Come join us for learning Chaburas </h4>
+                <li>8:30 -9:45pm</li>
               </ul>
             </div>
           </div>
-          
-        </section> */}
+        </section>
 
         <section id="four" className="main style2 special">
           <div className="container">
@@ -147,6 +91,8 @@ class Homepage extends React.Component {
               <br />
               Harav Moshe Langer
               <br />
+              <a href="tel: 516-404-4683"> 516-404-4683</a>
+              <br />
               <br />
               <strong>Gabbaim:&nbsp;</strong>
               <br />
@@ -165,7 +111,9 @@ class Homepage extends React.Component {
             </div>
 
             <div className="col-4">
-              <strong>Board Members:</strong>
+              <strong>
+                <a href="mailto:Board@torahutfilla.org">Board Members:</a>
+              </strong>
               <br />
               Menachem Brickman
               <br />
