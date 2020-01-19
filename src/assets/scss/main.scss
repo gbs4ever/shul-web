@@ -839,6 +839,7 @@ button,
   text-indent: 0.125em;
   text-transform: uppercase;
   white-space: nowrap;
+  margin: 15px;
 
   &:hover {
     background-color: _palette(border-bg);
@@ -990,6 +991,35 @@ button,
     @include dark(#333);
     background-attachment: fixed, fixed;
     background-image: url('../images/overlay1.png'), url('../images/header.jpg');
+    background-size: auto, cover;
+  }
+  &.style3 {
+    @include dark(#4686a0);
+    background-attachment: fixed, fixed;
+    background-image: url('../images/overlay2.png'),
+      url('../images/overlay3.svg'),
+      linear-gradient(
+        45deg,
+        _palette(accent1-alt) 5%,
+        _palette(accent3-alt) 30%,
+        _palette(accent6-alt)
+      );
+    background-size: auto, cover;
+  }
+  &.style4 {
+    @include dark(lightgray);
+    height: 55vh;
+    color: black;
+
+    background-attachment: fixed, fixed;
+    background-image: url('../images/overlay2.png'),
+      url('../images/overlay3.svg'),
+      linear-gradient(
+        60deg,
+        _palette(accent1-alt) 5%,
+        _palette(accent3-alt) 30%,
+        _palette(accent6-alt)
+      );
     background-size: auto, cover;
   }
 }
