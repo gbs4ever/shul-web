@@ -17,10 +17,7 @@ class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a
-                href="https://www.myzmanim.com/day.aspx?askdefault=1&vars=24685993&q=chestnut%20ridge"
-                className="button scrolly"
-              >
+              <a href="#three" className="button scrolly">
                 Zmanim
               </a>
             </li>

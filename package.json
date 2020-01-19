@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-photon",
+  "name": "torah-ufilla",
   "description": "Gatsby photon starter",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Simcha greenbaum",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",
@@ -21,6 +21,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "reset": "rm -rf .cache/ public/",
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
