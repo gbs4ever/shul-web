@@ -117,13 +117,13 @@ class Homepage extends React.Component {
               <br />
               Menachem Brickman
               <br />
-              Boruch Englard
+              Gershon Wenger
               <br />
-              Shmuli Fromovitz
+              Ezra eichorn
               <br />
-              Nesanel Link
+              Yehuda Schuster
               <br />
-              ​Yehuda Schuster
+              Yissocher Klugman
               <br />
             </div>
             <div className="col-4">
