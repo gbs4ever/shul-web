@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Logo from './Logo'
 class Header extends React.Component {
   render() {
     return (
       <section id="header">
+        <Logo />
         <div className="inner">
           {/* <span className="icon major fa-cloud"></span> */}
 
