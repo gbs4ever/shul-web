@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import ShulInfo from '../components/ShulInfo.js'
 import Donation from '../components/Donation.js'
 import shul from '../assets/images/shul.jpg'
-
+//TODO this needs to be moved into seprate components
 class Homepage extends React.Component {
   render() {
     const siteTitle = 'Bais Medrash Torah Utfilla'
