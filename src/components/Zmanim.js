@@ -42,7 +42,7 @@ class Template extends React.Component {
       <div className="col-4">
         {/* {this.state.loading != true ? console.log("error ")
       :   */}
-
+        <h2>Bais Medrash Torah Utfilla</h2>
         <div>This weeks parsha is {this.state.parsha}</div>
         <div>{this.state.candle}</div>
         <div> Motzei shabbos Marriv/{this.state.havdalah}</div>
