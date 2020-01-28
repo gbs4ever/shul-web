@@ -558,7 +558,13 @@ input[type='radio'] {
     }
   }
 }
-
+/*logo*/
+.logo {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  left: -500px;
+}
 /* List */
 
 ol {

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/scss/main.scss'
+import shullogo from '../assets/images/shullogo.jpg'
 
 import Header from './Header'
 import Footer from './Footer'
@@ -28,9 +29,12 @@ class Template extends React.Component {
     const { children } = this.props
 
     return (
-      <div className={`body ${this.state.loading}`}>
+      <div>
         <Header />
-
+        {/* <div className="style3" >
+       <img  className="logo" src={shullogo} alt="logo "
+        /> 
+        </div> */}
         {children}
         <Footer />
       </div>

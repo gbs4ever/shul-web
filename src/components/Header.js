@@ -1,10 +1,11 @@
 import React from 'react'
-import Logo from './Logo'
+
+import Zmanim from './Zmanim'
 class Header extends React.Component {
   render() {
     return (
       <section id="header">
-        <Logo />
+        <Zmanim />
         <div className="inner">
           {/* <span className="icon major fa-cloud"></span> */}
 
