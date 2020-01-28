@@ -14,15 +14,15 @@ class Template extends React.Component {
   componentDidMount() {
     // getzmanim = () => {
     fetch(
-      'https://www.hebcal.com/shabbat/?cfg=json&geo=zip&zip=10977&m=50&leyning=off'
+      'https://www.hebcal.com/shabbat/?cfg=json&geo=zip&zip=10977&m=55&leyning=off'
     )
       .then(r => r.json())
       .then(data => {
         let zman = data.items
         this.setState({
-          parsha: zman[2].hebrew,
-          candle: zman[1].title,
-          havdalah: zman[3].title,
+          parsha: zman[1].hebrew,
+          candle: zman[0].title,
+          havdalah: zman[2].title,
           loading: true,
         })
         console.log(this.state)
