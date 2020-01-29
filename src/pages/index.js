@@ -91,7 +91,7 @@ class Homepage extends React.Component {
               <br />
               Harav Moshe Langer
               <br />
-              <a href="tel: 516-404-4683"> 516-404-4683</a>
+              <a href="tel:5164044683"> 516-404-4683</a>
               <br />
               <br />
               <strong>Gabbaim:&nbsp;</strong>
