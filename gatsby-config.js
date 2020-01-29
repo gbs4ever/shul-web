@@ -12,8 +12,8 @@ module.exports = {
         name: 'Torah Ufilla',
         short_name: 'Torah Ufilla',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '##42c2f5',
+        theme_color: '#42c2f5',
         display: 'minimal-ui',
         icon: 'src/assets/images/shul.jpg', // This path is relative to the root of the site.
       },
