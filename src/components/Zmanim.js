@@ -22,7 +22,7 @@ class Template extends React.Component {
         this.setState({
           parsha: zman[1].hebrew,
           candle: zman[0].title,
-          havdalah: zman[2].title,
+          // need to fix later sg  havdalah: zman[2].hebrew,
           loading: true,
         })
         console.log(this.state)
@@ -45,7 +45,7 @@ class Template extends React.Component {
         <h2>Bais Medrash Torah Utfilla</h2>
         <div>This weeks parsha is {this.state.parsha}</div>
         <div>{this.state.candle}</div>
-        <div> Motzei shabbos Marriv/{this.state.havdalah}</div>
+        {/* <div> Motzei shabbos Marriv/{this.state.havdalah}</div> */}
       </div>
     )
   }
