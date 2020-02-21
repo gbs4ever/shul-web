@@ -20,22 +20,23 @@ class Template extends React.Component {
       .then(r => r.json())
       .then(data => {
         let zman = data.items
+        this.setState({
+          parsha: zman[1].hebrew,
+          candle: zman[0].title,
+        })
+
         if (zman[2].category === 'holiday') {
-          //must be refactored !!! SG
+          let yomtova = zman[2].hebrew
+          let havdalaha = zman[3].title
           this.setState({
-            parsha: zman[1].hebrew,
-            candle: zman[0].title,
-            havdalah: zman[3].title,
-            yomtov: zman[2].hebrew,
-            loading: true,
+            havdalah: havdalaha,
+            yomtov: yomtova,
           })
         } else {
+          let havdalaha = zman[2].title
           this.setState({
-            parsha: zman[1].hebrew,
-            candle: zman[0].title,
-            havdalah: zman[2].title,
+            havdalah: havdalaha,
             yomtov: '',
-            loading: true,
           })
         }
 
@@ -44,8 +45,6 @@ class Template extends React.Component {
   }
 
   render() {
-    const { children } = this.props
-
     return (
       <div className="col-4">
         {/* {this.state.loading != true ? console.log("error ")
