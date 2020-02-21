@@ -8,6 +8,7 @@ class Template extends React.Component {
       candle: '',
       havdalah: '',
       loading: '',
+      yomtov: '',
     }
   }
 
@@ -19,20 +20,27 @@ class Template extends React.Component {
       .then(r => r.json())
       .then(data => {
         let zman = data.items
-        this.setState({
-          parsha: zman[1].hebrew,
-          candle: zman[0].title,
-          // need to fix later sg  havdalah: zman[2].hebrew,
-          loading: true,
-        })
+        if (zman[2].category === 'holiday') {
+          //must be refactored !!! SG
+          this.setState({
+            parsha: zman[1].hebrew,
+            candle: zman[0].title,
+            havdalah: zman[3].title,
+            yomtov: zman[2].hebrew,
+            loading: true,
+          })
+        } else {
+          this.setState({
+            parsha: zman[1].hebrew,
+            candle: zman[0].title,
+            havdalah: zman[2].title,
+            yomtov: '',
+            loading: true,
+          })
+        }
+
         console.log(this.state)
       })
-  }
-
-  componentWillUnmount() {
-    if (this.timeoutId) {
-      clearTimeout(this.timeoutId)
-    }
   }
 
   render() {
@@ -45,7 +53,8 @@ class Template extends React.Component {
         <h2>Bais Medrash Torah Utfilla</h2>
         <div>This weeks parsha is {this.state.parsha}</div>
         <div>{this.state.candle}</div>
-        {/* <div> Motzei shabbos Marriv/{this.state.havdalah}</div> */}
+        <div> {this.state.yomtov}</div>
+        <div> Motzei shabbos Marriv/{this.state.havdalah}</div>
       </div>
     )
   }
