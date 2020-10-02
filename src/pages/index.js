@@ -46,8 +46,8 @@ class Homepage extends React.Component {
             <div className="col-4">
               <h3>Mincha</h3>
               <ul className="actions">
-                <li>Sun: 12:45, 1:45, 10 min bfr Shkia</li>
-                <li>Mon - Thurs: 1:45 , 10 min bfr Shkia</li>
+                <li>Sun: 12:45, 1:45, 15 min bfr Shkia</li>
+                <li>Mon - Thurs: 1:45 , 15 min bfr Shkia</li>
               </ul>
             </div>
             <div className="col-4">
@@ -69,7 +69,10 @@ class Homepage extends React.Component {
 
             <ul className="actions uniform">
               <li>
-                <a href="#" className="button special">
+                <a
+                  href="mailto:Board@torahutfilla.org"
+                  className="button special"
+                >
                   Sign Up
                 </a>
               </li>
@@ -119,7 +122,7 @@ class Homepage extends React.Component {
               <br />
               Gershon Wenger
               <br />
-              Ezra eichorn
+              Ezra Eichorn
               <br />
               Yehuda Schuster
               <br />

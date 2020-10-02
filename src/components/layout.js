@@ -31,10 +31,7 @@ class Template extends React.Component {
     return (
       <div>
         <Header />
-        {/* <div className="style3" >
-       <img  className="logo" src={shullogo} alt="logo "
-        /> 
-        </div> */}
+
         {children}
         <Footer />
       </div>

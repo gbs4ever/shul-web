@@ -17,7 +17,8 @@ class Footer extends React.Component {
             Chestnut Ridge NY 10977
           </li>
           <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
+            Design: <a href="http://html5up.net">HTML5 UP </a> ||{' '}
+            <a href="https://www.simchagreenbaum.dev">Simcha Greenbaum</a>
           </li>
         </ul>
       </section>
