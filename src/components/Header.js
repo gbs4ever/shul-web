@@ -12,10 +12,7 @@ class Header extends React.Component {
 
             <ul className="actions">
               <li>
-                <a
-                  href="https://secure.cardknox.com/torahutfilla"
-                  className="button scrolly"
-                >
+                <a href="#two" className="button scrolly">
                   Donations & Dedications
                 </a>
               </li>
