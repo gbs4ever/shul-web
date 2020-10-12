@@ -22,8 +22,8 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <div className={`body ${this.state.loading}`}>
-        <div className="wrapper">
+      <div className="wrapper">
+        <div className={`body ${this.state.loading}`}>
           <section id="header">
             <Zmanim />
             <div className="inner">

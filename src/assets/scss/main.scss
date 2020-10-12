@@ -1033,7 +1033,7 @@ button,
 .wrapper {
   //  height:     auto;       /* These two lines were the key. */
   //   min-height: 100%
-  height: 600px;
+  min-height: 100vh;
 }
 #header {
   // @include padding(9em, 0, (0, 0, _size(element-margin), 0));
@@ -1051,7 +1051,7 @@ button,
   overflow: hidden;
   position: relative;
   text-align: center;
-  height: 100%;
+  height: 100vh;
 
   h1 {
     margin: 0;
