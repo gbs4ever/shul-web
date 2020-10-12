@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import ShulInfo from '../components/ShulInfo.js'
-import Donation from '../components/Donation.js'
+
 import shul from '../assets/images/shul.jpg'
 //TODO this needs to be moved into seprate components
 class Homepage extends React.Component {
@@ -17,7 +17,7 @@ class Homepage extends React.Component {
         <section id="two" className="main style4 special">
           <div className="grid-wrapper">
             <div className="col-12">
-              <Donation />
+              <ShulInfo />
             </div>
           </div>
         </section>
@@ -70,7 +70,7 @@ class Homepage extends React.Component {
             <ul className="actions uniform">
               <li>
                 <a
-                  href="mailto:Board@torahutfilla.org"
+                  href="mailto:gabbai@torahutfilla.org"
                   className="button special"
                 >
                   Sign Up
