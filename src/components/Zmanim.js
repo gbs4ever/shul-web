@@ -33,9 +33,9 @@ class Template extends React.Component {
         } else {
           let havdalaha = zman[2].title
           this.setState({
-            parsha: `This weeks parsha is ${zman[1].hebrew}`,
+            parsha: `This weeks parsha is,  ${zman[1].hebrew}`,
             candle: zman[0].title,
-            havdalah: `Motzei shabbos Marriv/ ${havdalaha}`,
+            havdalah: `Motzei shabbos Marriav/ ${havdalaha}`,
           })
         }
 
