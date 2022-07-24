@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import ShulInfo from '../components/ShulInfo.js'
+// import ShulInfo from '../components/ShulInfo.js'
 
 import shul from '../assets/images/shul.jpg'
 import entrance from '../assets/images/entrance.jpeg'
@@ -66,7 +66,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="four" className="main style2 special">
+        {/* <section id="four" className="main style2 special">
           <div className="container">
             <header className="major">
               <h2>Do you want to receive the weekly shul newsletter ?</h2>
@@ -88,7 +88,7 @@ class Homepage extends React.Component {
               </li>
             </ul>
           </div>
-        </section>
+        </section> */}
         <section id="five" className="main style1">
           <div className="grid-wrapper">
             <div className="col-4">

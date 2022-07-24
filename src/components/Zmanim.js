@@ -9,7 +9,6 @@ class Template extends React.Component {
       havdalah: '',
       loading: '',
       yomtov: '',
-      Motzei: '',
     }
   }
 
@@ -21,23 +20,36 @@ class Template extends React.Component {
       .then(r => r.json())
       .then(data => {
         let zman = data.items
-        if (zman[0].category === 'holiday') {
-          let yomtova = zman[0].hebrew
-          let havdalah = zman[3].title
-          this.setState({
-            candle: zman[1].title,
-            yomtov: yomtova,
-            havdalah: `No melacha maybe done before ${havdalah}`,
-            Motzei: `Marriv  ${zman[5].title}`,
-          })
-        } else {
-          let havdalaha = zman[2].title
-          this.setState({
-            parsha: `This weeks parsha is,  ${zman[1].hebrew}`,
-            candle: zman[0].title,
-            havdalah: `Motzei shabbos Marriav/ ${havdalaha}`,
-          })
+        let parsha
+        let candle
+        let havdalah
+        let yomtov
+
+        for (const zman_type of zman) {
+          switch (zman_type.category) {
+            case 'candles':
+              candle = zman_type.title
+              break
+            case 'parashat':
+              parsha = `This weeks parsha is,  ${zman_type.hebrew}`
+              break
+            case 'havdalah':
+              havdalah = `Motzei shabbos Marriav/ ${zman_type.title}`
+              break
+            case 'holiday':
+              yomtov = `This week is  ${zman_type.hebrew}`
+              break
+            default:
+            // code block
+          }
         }
+
+        this.setState({
+          parsha: parsha,
+          candle: candle,
+          havdalah: havdalah,
+          yomtov: yomtov,
+        })
 
         console.log(this.state)
       })
