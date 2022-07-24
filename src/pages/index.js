@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import ShulInfo from '../components/ShulInfo.js'
 
 import shul from '../assets/images/shul.jpg'
+import entrance from '../assets/images/entrance.jpeg'
 //TODO this needs to be moved into seprate components
 class Homepage extends React.Component {
   render() {
@@ -17,7 +18,10 @@ class Homepage extends React.Component {
         <section id="two" className="main style4 special">
           <div className="grid-wrapper">
             <div className="col-12">
-              <ShulInfo />
+              <span className="image fit">
+                <img src={entrance} alt="shul " />
+              </span>
+              {/* <ShulInfo /> */}
             </div>
           </div>
         </section>
@@ -39,13 +43,14 @@ class Homepage extends React.Component {
             <div className="col-4">
               <h3>Shacharis</h3>
               <ul className="actions">
-                <li>Sun: 7:30, 8:30</li>
-                <li>Mon -Fri: 6:45, 7:30</li>
+                <li>Sun: 6:45, 7:35, 8:45</li>
+                <li>Mon -Fri: 6:45, 7:35</li>
               </ul>
             </div>
             <div className="col-4">
               <h3>Mincha</h3>
               <ul className="actions">
+                {/* add auto for time bfr shika */}
                 <li>Sun: 12:45, 1:45, 15 min bfr Shkia</li>
                 <li>Mon - Thurs: 1:45 , 15 min bfr Shkia</li>
               </ul>
@@ -53,7 +58,7 @@ class Homepage extends React.Component {
             <div className="col-4">
               <h3>Marriv</h3>
               <ul className="actions">
-                <li>Shkia, 8:15, 9:45</li>
+                <li>Shkia, 8:15 (Winter only), 9:45</li>
                 <h4> Come join us for learning Chaburas </h4>
                 <li>8:30 -9:45pm</li>
               </ul>
@@ -106,7 +111,11 @@ class Homepage extends React.Component {
               <br />
               <strong>Treasurers:</strong>
               <br />
-              Yitzy Diskind
+              Rafi Bondi
+              <br />
+              Baruch Ferziger
+              <br />
+              Yissachar Klugman
               <br />
               Elazar Simons&nbsp;
               <br />
@@ -120,7 +129,7 @@ class Homepage extends React.Component {
               <br />
               Menachem Brickman
               <br />
-              Gershon Wenger
+              Matt Berkowitz
               <br />
               Ezra Eichorn
               <br />
