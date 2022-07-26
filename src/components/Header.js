@@ -50,8 +50,11 @@ class Header extends React.Component {
                     </a>
                   </li>
                   <li>
-                    <a href="#four" className="button scrolly">
-                      Contact
+                    <a
+                      href="https://www.dropbox.com/sh/zvcw3vwzjhbhvv5/AADt44OcerypAf8pDK6YP8Zwa?dl=0"
+                      className="button scrolly"
+                    >
+                      Shul Shiurim
                     </a>
                   </li>
                 </ul>
