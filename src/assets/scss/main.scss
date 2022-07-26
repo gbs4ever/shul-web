@@ -1035,6 +1035,15 @@ button,
   //   min-height: 100%
   min-height: 100vh;
 }
+.welcomer {
+  text-align: center;
+
+  //(./assets/images/entrance.jpeg)
+  min-height: 100vh;
+  background-image: url('http://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+  background-repeat: no-repeat;
+  // background-color: rgb(155, 154, 154);
+}
 #header {
   // @include padding(9em, 0, (0, 0, _size(element-margin), 0));
   @include dark(#4686a0);
