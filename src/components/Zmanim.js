@@ -34,7 +34,7 @@ class Template extends React.Component {
               parsha = `This weeks parsha is,  ${zman_type.hebrew}`
               break
             case 'havdalah':
-              havdalah = `Motzei shabbos Marriav/ ${zman_type.title}`
+              havdalah = `Motzei shabbos Marriav/  ${zman_type.title}`
               break
             case 'holiday':
               yomtov = `This week is  ${zman_type.hebrew}`

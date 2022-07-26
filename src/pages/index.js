@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 // import ShulInfo from '../components/ShulInfo.js'
 
 import shul from '../assets/images/shul.jpg'
-import entrance from '../assets/images/entrance.jpeg'
+
 //TODO this needs to be moved into seprate components
 class Homepage extends React.Component {
   render() {
@@ -15,16 +15,16 @@ class Homepage extends React.Component {
       <Layout>
         <Helmet title={siteTitle} />
 
-        <section id="two" className="main style4 special">
+        {/* <section id="two" className="main style4 special">
           <div className="grid-wrapper">
             <div className="col-12">
               <span className="image fit">
                 <img src={entrance} alt="shul " />
               </span>
-              {/* <ShulInfo /> */}
+              // {/* <ShulInfo /> 
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="three" className="main style3 special">
           <div className="grid-wrapper">
