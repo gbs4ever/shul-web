@@ -35,7 +35,10 @@ class Header extends React.Component {
               <div className="inner">
                 <ul className="actions">
                   <li>
-                    <a href="#two" className="button scrolly">
+                    <a
+                      href="https://secure.cardknox.com/torahutfilla"
+                      className="button scrolly"
+                    >
                       Donations & Dedications
                     </a>
                   </li>
