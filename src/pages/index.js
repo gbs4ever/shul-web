@@ -2,9 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import ShulInfo from '../components/ShulInfo.js'
+import ShulInfo from '../components/ShulInfo.js'
 
-import shul from '../assets/images/shul.jpg'
+import shul from '../assets/images/shul_Quality.jpg'
 
 //TODO this needs to be moved into seprate components
 class Homepage extends React.Component {
@@ -18,13 +18,10 @@ class Homepage extends React.Component {
         {/* <section id="two" className="main style4 special">
           <div className="grid-wrapper">
             <div className="col-12">
-              <span className="image fit">
-                <img src={entrance} alt="shul " />
-              </span>
-              // {/* <ShulInfo /> 
+               <ShulInfo /> 
             </div>
           </div>
-        </section> */}
+        </section>  */}
 
         <section id="three" className="main style3 special">
           <div className="grid-wrapper">
@@ -66,13 +63,11 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        {/* <section id="four" className="main style2 special">
+        <section id="four" className="main style2 special">
           <div className="container">
-            <header className="major">
-              <h2>Do you want to receive the weekly shul newsletter ?</h2>
-            </header>
+            <ShulInfo />
 
-            <ul className="actions uniform">
+            {/* <ul className="actions uniform">
               <li>
                 <a
                   href="mailto:gabbai@torahutfilla.org"
@@ -86,9 +81,9 @@ class Homepage extends React.Component {
                   Learn More
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
-        </section> */}
+        </section>
         <section id="five" className="main style1">
           <div className="grid-wrapper">
             <div className="col-4">
@@ -111,13 +106,9 @@ class Homepage extends React.Component {
               <br />
               <strong>Treasurers:</strong>
               <br />
-              Rafi Bondi
-              <br />
               Baruch Ferziger
               <br />
               Yissachar Klugman
-              <br />
-              Elazar Simons&nbsp;
               <br />
               <br />
             </div>
@@ -133,9 +124,9 @@ class Homepage extends React.Component {
               <br />
               Ezra Eichorn
               <br />
-              Yehuda Schuster
+              Sholom Gutman
               <br />
-              Yissocher Klugman
+              Shlomo Lehrman
               <br />
             </div>
             <div className="col-4">
