@@ -65,7 +65,7 @@ class Homepage extends React.Component {
 
         <section id="four" className="main style2 special">
           <div className="container">
-            <ShulInfo />
+            {/* <ShulInfo /> */}
 
             {/* <ul className="actions uniform">
               <li>
