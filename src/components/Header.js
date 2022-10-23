@@ -31,6 +31,7 @@ class Header extends React.Component {
         <div className="wrapper">
           <div className={`body ${this.state.loading}`}>
             <section id="header">
+              <h2>Bais Medrash Torah Utfilla</h2>
               <Zmanim />
               <div className="inner">
                 <ul className="actions">
