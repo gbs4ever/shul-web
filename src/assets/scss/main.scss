@@ -516,10 +516,16 @@ input[type='radio'] {
 
 /* Image */
 .logo {
-  padding-top: 35px;
+  padding-top: 55px;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+}
+.image_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .image {
