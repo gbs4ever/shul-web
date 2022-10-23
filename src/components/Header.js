@@ -1,5 +1,5 @@
 import React from 'react'
-import entrance from '../assets/images/logo_shul.pdf'
+import entrance from '../assets/images/shullogo.jpg'
 import Zmanim from './Zmanim'
 // let sectionStyle = {
 //   width: "100%",
