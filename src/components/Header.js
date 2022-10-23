@@ -33,7 +33,7 @@ class Header extends React.Component {
             <section id="header">
               <h2>Bais Medrash Torah Utfilla</h2>
               <div className="col-4">
-                <span className="image fit">
+                <span className="logo">
                   <img src={entrance} alt="750 shul " />
                 </span>
               </div>
