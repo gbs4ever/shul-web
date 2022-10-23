@@ -515,6 +515,11 @@ input[type='radio'] {
 }
 
 /* Image */
+.logo {
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
 
 .image {
   border-radius: _size(border-radius);
