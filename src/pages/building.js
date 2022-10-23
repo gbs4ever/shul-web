@@ -1,5 +1,5 @@
 import * as React from 'react'
-import main from '../assets/images/main.jpg'
+import main from '../assets/images/main.jpeg'
 export default function Index() {
   return (
     <div>
