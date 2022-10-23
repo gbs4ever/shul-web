@@ -1,5 +1,5 @@
 import React from 'react'
-import entrance from '../assets/images/entrance.jpeg'
+import entrance from '../assets/images/logo_shul.pdf'
 import Zmanim from './Zmanim'
 // let sectionStyle = {
 //   width: "100%",
@@ -32,6 +32,11 @@ class Header extends React.Component {
           <div className={`body ${this.state.loading}`}>
             <section id="header">
               <h2>Bais Medrash Torah Utfilla</h2>
+              <div className="col-4">
+                <span className="image fit">
+                  <img src={entrance} alt="750 shul " />
+                </span>
+              </div>
               <Zmanim />
               <div className="inner">
                 <ul className="actions">
