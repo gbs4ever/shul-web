@@ -106,8 +106,6 @@ class Homepage extends React.Component {
               <br />
               <strong>Treasurers:</strong>
               <br />
-              Baruch Ferziger
-              <br />
               Yissachar Klugman
               <br />
               <br />
