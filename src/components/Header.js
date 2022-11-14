@@ -45,7 +45,13 @@ class Header extends React.Component {
                       href="https://secure.cardknox.com/torahutfilla"
                       className="button scrolly"
                     >
-                      Donations & Dedications
+                      Shul Donations
+                    </a>
+                    <a
+                      href="https://secure.cardknox.com/congtorahutfillakerenhabinyen"
+                      className="button scrolly"
+                    >
+                      Keren Habinyen
                     </a>
                   </li>
                   <li>
