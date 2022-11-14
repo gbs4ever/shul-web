@@ -4,12 +4,12 @@ export default function Index() {
   return (
     <div>
       <img className="bg" src={main} alt="750 shul " />
-      <iframe
+      {/* <iframe
         width="50%"
         height="100%"
         src="https://secure.cardknox.com/congtorahutfillakerenhabinyen"
         title="W3Schools Free Online Web Tutorials"
-      ></iframe>
+      ></iframe> */}
     </div>
   )
 }
