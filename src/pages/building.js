@@ -3,7 +3,7 @@ import main from '../assets/images/Dedication Opportunities.jpg'
 export default function Index() {
   return (
     <div>
-      <img className="bg" src={main} alt="750 shul " />
+      <img src={main} alt="750 shul " width="100vw" height="auto" />
       {/* <iframe
         width="50%"
         height="100%"
