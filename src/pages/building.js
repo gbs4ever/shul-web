@@ -9,10 +9,6 @@ export default function Index() {
         width: '250px',
         height: '100%',
       }}
-    >
-      <button class="open-button" onclick="openForm()">
-        Open Form
-      </button>
-    </div>
+    ></div>
   )
 }
