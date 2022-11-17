@@ -1,5 +1,5 @@
 import * as React from 'react'
-import main from '../assets/images/Dedication Opportunities.jpg'
+import main from '../assets/images/shul_Quality.jpg'
 export default function Index() {
   return (
     <div className="pics">
